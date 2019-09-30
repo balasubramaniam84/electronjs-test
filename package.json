@@ -1,6 +1,6 @@
 {
     "name": "electronjs-test",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Balasubramaniam",
     "homepage": "./",
     "description": "An example of an autoupdating electron app",
@@ -15,6 +15,6 @@
     },
     "devDependencies": {
         "electron": "^1.7.5",
-        "electron-builder": "^19.20.1"
+        "electron-builder": "^19.56.2"
     }
 }

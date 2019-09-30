@@ -23,7 +23,7 @@
             container.innerHTML = "new version ready!";
         })
     </script>
-  <font color='red'>  Version: <span id="version">v0.1.10</span> </font>
+  <font color='green'>  Version: <span id="version">v0.1.10</span> </font>
     <!-- the button onClick sends a quitAndInstall message to the electron main process -->
     <button id="ready" onClick="ipcRenderer.send('quitAndInstall')">no updates ready</button>
 

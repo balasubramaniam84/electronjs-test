@@ -1,20 +1,25 @@
 {
-    "name": "electronjs-test",
-    "version": "0.1.2",
-    "author": "Balasubramaniam",
-    "homepage": "./",
-    "description": "An example of an autoupdating electron app",
-    "repository": "https://github.com/balasubramaniam84/electron-autoupdate-example",
-    "main": "electron.js",
-    "dependencies": {
-        "electron-updater": "^2.23.3"
-    },
-    "scripts": {
-        "build": "build --win",
-        "ship": "build --win -p always"
-    },
-    "devDependencies": {
-        "electron": "^1.7.5",
-        "electron-builder": "^19.56.2"
-    }
+  "name": "electron-auto-update-example",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/johndyer24/electron-auto-update-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-builder": "^20.40.2"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6"
+  }
 }
